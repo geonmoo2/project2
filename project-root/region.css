@@ -1,0 +1,558 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+
+}
+nav{
+
+    border-bottom:5px solid green;
+    height: 200px;
+
+}
+.logo{
+    margin-top: 50px;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin-left: 1120px;
+
+
+}
+
+
+
+/* banner1 에 대한 설정 */
+.head{
+    border-radius: 30px;
+    margin-left: 650px;
+    border: 0px solid black;
+    width: 1175px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+
+    
+    height: 400px;
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+
+}
+.head>a{
+
+    width: 250px;
+    height: 350px;
+    margin-left: 35px;
+    text-decoration: none;
+    transition: transform 0.5s ease;
+
+}
+.head>a>div{
+
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.8);
+    
+
+}
+.head>a>div>h1{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: black;
+ 
+
+
+
+}
+.slide1{
+    background-size: 250px ,350px;
+    width: 250px;
+    height: 350px;
+    
+    background-size: 250px 350px;
+    background-image: url('https://img.freepik.com/free-photo/south-korea-skyline-of-seoul-the-best-view-of-south-korea-with-lotte-world-mall-at-namhansanseong-fortress_335224-495.jpg');
+
+}
+.slide2{
+
+    background-size: 250px ,350px;
+    width: 250px;
+    height: 350px;
+    
+    background-size: 250px 350px;
+    background-image: url('https://img.freepik.com/free-photo/vertical-view-of-vasco-da-gama-bridge-by-night-lisbon_268835-1339.jpg');
+
+
+}
+.slide3{
+
+    background-size: 250px ,350px;
+    width: 250px;
+    height: 350px;
+    
+    background-size: 250px 350px;
+    background-image: url('https://cdn.travie.com/news/photo/202207/50481_22659_1954.jpg');
+
+
+}
+.slide4{
+
+    background-size: 250px ,350px;
+    width: 250px;
+    height: 350px;
+    
+    background-size: 250px 350px;
+    background-image: url('https://res.cloudinary.com/kyte/image/upload/w_1080,h_1560,q_auto,f_auto,e_sharpen:50,c_fill,g_auto/v1605774877/content/shutterstock/KR/suwon_5');
+
+}
+.slide5{
+
+    background-size: 250px ,350px;
+    width: 250px;
+    height: 350px;
+    
+    background-size: 250px 350px;
+    background-image: url('https://i.pinimg.com/736x/dc/e2/14/dce214132623114538224e0253e651bc.jpg');
+
+}
+.slide6{
+
+    background-size: 250px ,350px;
+    width: 250px;
+    height: 350px;
+    
+    background-size: 250px 350px;
+    background-image: url('https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTlfMTM2/MDAxNTcxNDgzNTEwODIy.AVNxDFySpfsholilenOvHiopWuLAHCgHGHbTz21bBDsg.KlqBv_O7Ej9-PaLC8Sb99uN8dwhqqG-S5cz0BnNqVAMg.PNG.weeeunjee/SE-6b79554a-c72e-4454-8311-81a60fcbd502.png?type=w800');
+
+}
+.slide7{
+
+    background-size: 250px ,350px;
+    width: 250px;
+    height: 350px;
+    
+    background-size: 250px 350px;
+    background-image: url('https://mblogthumb-phinf.pstatic.net/MjAyMzA4MTZfMjY1/MDAxNjkyMTQwMjQ2OTQ0.oGMt0Iy87HPbywOlOksKTHakOYaszfvSgnwooBqw9pAg.Co9cdA-QYXCIKk7DdTB4CoLTi7UCIyBEQ7XgFjtNvE0g.JPEG.ohhl7816/IMG_9198.JPG?type=w800');
+
+}
+main>h1{
+margin-top: 70px;
+margin-left: 650px;
+
+
+}
+.banner1{
+    margin-top: 60px;
+    border:0px solid black;
+    display: flex;
+
+}
+
+main>.banner1>.material-symbols-outlined{
+    font-size: 100px;
+    z-index: 99;
+    margin-left: 600px;
+    margin-top: 130px;
+    color:green;
+    margin-right: 480px;
+}
+
+/* banner2 에 대한 설정  */
+
+.banner2 {
+    margin-top: 250px;
+    background-color: white;
+    width: 1200px;
+    height: 350px;
+    margin-left: 650px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 10px 10px 15px rgba(0.2, 0.2, 0.2, 0.3);
+    border-radius: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.3); /* 30% 불투명한 검정색 */
+}
+
+.banner2 > div {
+    width: 1300px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: left 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.b1 { 
+    background-image: url("https://i.ytimg.com/vi/ejbosXIjUHM/maxresdefault.jpg"); 
+    background-size: 1200px 350px;
+
+
+}
+.b2 { 
+    background-image: url("https://www.joseilbo.com/gisa_img_origin/15947742671594774267_pabw_origin.jpg"); 
+    background-size: 1200px 350px;
+
+
+}
+.b3 { 
+    background-image: url("https://www.seoulfringefestival.net:5632/upload_img/festival/main/(1741-650px)[2].png"); 
+    background-size: 1200px 350px;
+
+
+}
+.b4 { 
+    background-image: url("https://www.story-w.co.kr/resource/202310/contents/whz5d1ue4wrkenr5.png"); 
+    background-size: 1200px 350px;
+}
+.b5 { 
+    background-image: url("https://at.agromarket.kr/resources/user/img/banner_231129.jpg"); 
+    background-size: 1200px 350px;
+}
+
+/* -----------------------main3          */
+
+.main3{
+
+    margin-top: 100px;
+    margin-left: 650px;
+    margin-bottom: 200px;
+}
+.f1{
+
+    margin-top: 100px;
+    border: 0px solid black;
+    display: flex;
+    width: 1200px;
+
+}
+.f1>a{
+    color: inherit; /* 부모 요소의 색상 상속 */
+    text-decoration: none; /* 밑줄 없애기 */
+}
+.f1>a>div{
+
+    border: 0px solid black;
+    width: 270px;
+    height: 350px;
+    margin-right: 40px;
+}
+.g1>.g1-img1{ 
+    box-shadow: 10px 10px 15px rgba(0.2, 0.2, 0.2, 0.3);
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxNjEyMDZfMjc2/MDAxNDgwOTUzMzQ2NDMy.XZTVP0zjye6zsCzTNFiRM72yprWmzNRuF_yrZvYRD8cg.r-VzTAWxS9qAxdpTcXcNdWIUPoc0MlwQdMFswLi1O5Qg.JPEG.minzsnap/IMG_3725.JPG?type=w420");
+    background-size: 270px,270px;    
+    width:270px;height: 270px;
+}
+.g1>.g1-img2{ 
+    box-shadow: 10px 10px 15px rgba(0.2, 0.2, 0.2, 0.3);
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxNjEyMDZfMjc2/MDAxNDgwOTUzMzQ2NDMy.XZTVP0zjye6zsCzTNFiRM72yprWmzNRuF_yrZvYRD8cg.r-VzTAWxS9qAxdpTcXcNdWIUPoc0MlwQdMFswLi1O5Qg.JPEG.minzsnap/IMG_3725.JPG?type=w420");
+    background-size: 270px,270px;    
+    width:270px;height: 270px;
+}
+.g1>.g1-img3{ 
+    box-shadow: 10px 10px 15px rgba(0.2, 0.2, 0.2, 0.3);
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxNjEyMDZfMjc2/MDAxNDgwOTUzMzQ2NDMy.XZTVP0zjye6zsCzTNFiRM72yprWmzNRuF_yrZvYRD8cg.r-VzTAWxS9qAxdpTcXcNdWIUPoc0MlwQdMFswLi1O5Qg.JPEG.minzsnap/IMG_3725.JPG?type=w420");
+    background-size: 270px,270px;    
+    width:270px;height: 270px;
+}    
+.g1>.g1-img4{ 
+    box-shadow: 10px 10px 15px rgba(0.2, 0.2, 0.2, 0.3);
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxNjEyMDZfMjc2/MDAxNDgwOTUzMzQ2NDMy.XZTVP0zjye6zsCzTNFiRM72yprWmzNRuF_yrZvYRD8cg.r-VzTAWxS9qAxdpTcXcNdWIUPoc0MlwQdMFswLi1O5Qg.JPEG.minzsnap/IMG_3725.JPG?type=w420");
+    background-size: 270px,270px;    
+    width:270px;height: 270px;
+}
+.g1>.g1-img5{ 
+    box-shadow: 10px 10px 15px rgba(0.2, 0.2, 0.2, 0.3);
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxNjEyMDZfMjc2/MDAxNDgwOTUzMzQ2NDMy.XZTVP0zjye6zsCzTNFiRM72yprWmzNRuF_yrZvYRD8cg.r-VzTAWxS9qAxdpTcXcNdWIUPoc0MlwQdMFswLi1O5Qg.JPEG.minzsnap/IMG_3725.JPG?type=w420");
+    background-size: 270px,270px;    
+    width:270px;height: 270px;
+}
+.g1>.g1-img6{ 
+    box-shadow: 10px 10px 15px rgba(0.2, 0.2, 0.2, 0.3);
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxNjEyMDZfMjc2/MDAxNDgwOTUzMzQ2NDMy.XZTVP0zjye6zsCzTNFiRM72yprWmzNRuF_yrZvYRD8cg.r-VzTAWxS9qAxdpTcXcNdWIUPoc0MlwQdMFswLi1O5Qg.JPEG.minzsnap/IMG_3725.JPG?type=w420");
+    background-size: 270px,270px;    
+    width:270px;height: 270px;
+}
+.g1>.g1-img7{ 
+    box-shadow: 10px 10px 15px rgba(0.2, 0.2, 0.2, 0.3);
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxNjEyMDZfMjc2/MDAxNDgwOTUzMzQ2NDMy.XZTVP0zjye6zsCzTNFiRM72yprWmzNRuF_yrZvYRD8cg.r-VzTAWxS9qAxdpTcXcNdWIUPoc0MlwQdMFswLi1O5Qg.JPEG.minzsnap/IMG_3725.JPG?type=w420");
+    background-size: 270px,270px;    
+    width:270px;height: 270px;
+}
+.g1>.g1-img8{ 
+    box-shadow: 10px 10px 15px rgba(0.2, 0.2, 0.2, 0.3);
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxNjEyMDZfMjc2/MDAxNDgwOTUzMzQ2NDMy.XZTVP0zjye6zsCzTNFiRM72yprWmzNRuF_yrZvYRD8cg.r-VzTAWxS9qAxdpTcXcNdWIUPoc0MlwQdMFswLi1O5Qg.JPEG.minzsnap/IMG_3725.JPG?type=w420");
+    background-size: 270px,270px;    
+    width:270px;height: 270px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #ececec;;
+    padding: 3rem 0 3rem 0;
+    z-index: 999;
+    
+}
+.footer-in{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+
+
+}
+.footerlogo{
+    
+    margin-bottom: 2rem;
+}
+.footer-con{
+
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.footer-left>p{
+    
+    font-family: 'PreM';
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+.footer-left>span{
+
+    
+    display: block;
+    font-family: 'PreSB';
+    font-size: 13px;
+    color: #a8a8a8;
+}
+.footer-right{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18%;
+}
+.footer-right>a{
+    
+    cursor:pointer;
+}
+
+.footer-right a:hover img {
+    
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+
+    nav{
+
+        height: 140px;
+
+
+    }
+    .logo{
+        margin-top: 15px;
+        margin-left: 320px;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 20px;
+
+
+    }
+
+    /* body>h1 조정 */
+    main > h1 {
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 24px;
+    }
+
+    /* banner1 설정 */
+    .head {
+        margin-left: 30px;
+        width: calc(100% - 40px); /* 좌우 20px씩 마진을 두고 전체 너비 조정 */
+        height: 220px;
+        position: absolute;
+        border-radius: 20px;
+        width: 700px;
+        z-index: -2;
+    }
+
+    .head > a {
+        width: 180px;
+        height: 250px;
+        margin-left: 12px;
+        margin-right: 10px;
+    }
+
+    .head > a > div {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+
+    }
+    .slide1{
+        width: 150px;
+        height: 200px;
+    
+    }
+    .slide2{
+        width: 150px;
+        height: 200px;
+    
+    }
+    .slide3{
+        width: 150px;
+        height: 200px;
+    
+    }
+    .slide4{
+        width: 150px;
+        height: 200px;
+    
+    }
+    .slide5{
+        width: 150px;
+        height: 200px;
+    
+    }
+    .slide6{
+        width: 150px;
+        height: 200px;
+    
+    }
+    .slide7{
+        width: 150px;
+        height: 200px;
+    
+    }
+
+
+
+    .head > a > div > h1 {
+        font-size: 18px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    /* banner1의 화살표 크기와 위치 조정 */
+    main > .banner1 > .material-symbols-outlined {
+        font-size: 50px;
+        z-index: 99;
+        margin-left: 0px;
+        margin-top: 80px;
+        margin-right: 655px;
+        position: relative; 
+       
+    }
+
+    /* banner2 설정 */
+    .banner2 {
+
+        margin-top: 150px;
+        width: calc(100% - 40px); /* 좌우 20px씩 마진을 두고 전체 너비 조정 */
+        height: 200px;
+        margin-left: 20px;
+        border-radius: 20px;
+    }
+    .b1{background-size: 728px 200px;}
+    .b2{background-size: 728px 200px;}
+    .b3{background-size: 728px 200px;}
+    .b4{background-size: 728px 200px;}
+    .b5{background-size: 728px 200px;}
+
+    .banner2 > div {
+        width: 100%; /* 슬라이드의 너비를 부모의 100%로 설정 */
+        height: 250px;
+    }
+
+    /* main3 설정 */
+    .main3 {
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-bottom: 100px;
+    }
+    .main3>h1{
+        font-size: 20px;
+    }
+
+    .f1 {
+        flex-direction: row;
+        width: 728px;
+        margin-top: 50px;
+        display: flex;
+    
+       
+    }
+    .f1>a{
+        width: 150px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+
+    .f1 > a > div {
+        width: 150px;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+    .g1 > .g1-img1,
+    .g1 > .g1-img2,
+    .g1 > .g1-img3,
+    .g1 > .g1-img4,
+    .g1 > .g1-img5,
+    .g1 > .g1-img6,
+    .g1 > .g1-img7,
+    .g1 > .g1-img8 {
+        width: 100%;
+        height: 150px;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    .footer-in{
+
+        width: 700px;
+        
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
